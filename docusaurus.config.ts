@@ -13,12 +13,14 @@ const config: Config = {
   url: 'https://futaboshioto.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/FutaboshiOto.gihhub.io',
+  baseUrl: '/FutaboshiOto.gihhub.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'FutaboshiOto', // Usually your GitHub org/user name.
   projectName: 'FutaboshiOto.github.io', // Usually your repo name.
+
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
